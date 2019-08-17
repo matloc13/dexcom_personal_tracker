@@ -1,23 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState,} from 'react';
 import './App.css';
 
-function App() {
+function App()
+
+useEffect(() => {
+  fetch(`https://sandbox-api.dexcom.com/v2/oauth2/login?client_id=${process.env.CID}&redirect_uri=lvh.me&response_type=code&scope=offline_access&state=`)
+},[])
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );

@@ -1,3 +1,20 @@
+
+# Dexcom Tracker
+dexcom developer api
+
+## MERN Stack
+- mongoose, express, react, node
+
+oAuth2
+passportjs
+chartjs
+
+- user can see their data in an organized manner.
+- user can see their data as the server is updated?
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
