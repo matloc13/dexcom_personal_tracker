@@ -1,18 +1,19 @@
-import React, { useEffect, useState,} from 'react';
-import './App.css';
+import React, { useEffect, useState,} from 'react'
+import './App.css'
 
-function App()
+ const App = () => {
 
-useEffect(() => {
-  fetch(`https://sandbox-api.dexcom.com/v2/oauth2/login?client_id=${process.env.CID}&redirect_uri=lvh.me&response_type=code&scope=offline_access&state=`)
-},[])
-  return (
-    <div className="App">
-      <header className="App-header">
+   const [user, setUser] = useState(username: 'matloc')
 
-      </header>
-    </div>
-  );
+
+
+
+   return (
+     <UserProvider value={user}>
+       <Header />
+       <Footer />
+     </UserProvider>
+   )
 }
 
-export default App;
+export default App
