@@ -1,11 +1,14 @@
 import React from 'react'
 
-const Input = () => {
+const Input = (props) => {
 
-  const {type, name, }
+  const {type, name, value,} = props
 
 return (
-  <input type={}/>
+  <input
+    type={type}
+    value={value}
+  />
 )
 }
 

@@ -1,5 +1,6 @@
 import React, { } from 'react'
-import { BASE_URL } from '../constants';
+import { BASE_URL } from '../constants'
+import Input from './input';
 
 const Login = () => {
 
