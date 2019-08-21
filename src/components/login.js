@@ -4,15 +4,22 @@ import Input from './input';
 
 const Login = () => {
 
+  // const goToLogin = (event) => {
+  //   event.preventDefault()
+  //   fetch(`${BASE_URL}/auth/dexcom`)
+  //   // .then(res => res.json())
+  // }
+
   return (
     <>
-      <form onSubmit={`${BASE_URL}/auth/dexcom`}>
+      {/* <form onSubmit={goToLogin}>
         <Input
           type={'submit'}
           value={'Login with Dexcom'}
         />
-      </form>
-
+        </form>
+      */}
+      <a href={`${BASE_URL}/auth/dexcom`}>Login with Dexcom</a>
     </>
   )
 }
