@@ -3,7 +3,10 @@ import Nav from './nav.js';
 
 const Header = () => {
   return (
-    <Nav />
+    <>
+      <h1>BG Personal tracker</h1>
+      <Nav />
+    </>
   )
 }
 

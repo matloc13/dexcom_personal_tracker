@@ -1,10 +1,15 @@
 import React from 'react'
-import Login from './login'
+import { Link } from 'react-router-dom'
+
+import Profile from './profile'
 
 const Nav = () => {
   return (
     <nav>
-    <Login />
+      <Profile/>
+      <div>
+        <Link to={"/devices"}>devices</Link>
+          </div>
     </nav>
   )
 }
